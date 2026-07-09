@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { FaCcVisa, FaCcMastercard, FaCcAmex, FaApplePay, FaGooglePay } from 'react-icons/fa';
 
 function App() {
   const [apiMessage, setApiMessage] = useState<string>('');
@@ -105,20 +106,13 @@ function App() {
                       </ul>
                       <a href="https://buy.stripe.com/eVq5kC1Gv2rMfWY5P28k800" className="cta-btn" style={{ width: '100%', padding: '15px' }}>Buy 1 Unit</a>
                       <div style={{ marginTop: '15px', textAlign: 'center' }}>
-                          <div style={{ color: '#718096', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px' }}>Guaranteed Safe Checkout</div>
-                          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '16px', marginTop: '12px' }}>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/mastercard.svg" alt="Mastercard" style={{ height: '18px', width: 'auto' }} />
-                              </div>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/visa.svg" alt="Visa" style={{ height: '12px', width: 'auto' }} />
-                              </div>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/gpay.svg" alt="Google Pay" style={{ height: '14px', width: 'auto' }} />
-                              </div>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/applepay.svg" alt="Apple Pay" style={{ height: '14px', width: 'auto' }} />
-                              </div>
+                          <div style={{ color: '#718096', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '8px' }}>Guaranteed Safe Checkout</div>
+                          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px', color: '#CBD5E0' }}>
+                              <FaCcMastercard size={32} />
+                              <FaCcVisa size={32} />
+                              <FaCcAmex size={32} />
+                              <FaApplePay size={38} style={{ transform: 'translateY(-2px)' }} />
+                              <FaGooglePay size={38} style={{ transform: 'translateY(-2px)' }} />
                           </div>
                       </div>
                   </div>
@@ -133,20 +127,13 @@ function App() {
                       </ul>
                       <a href="https://buy.stripe.com/8x2aEWbh55DY6mo5P28k801" className="cta-btn" style={{ width: '100%', padding: '15px' }}>Claim Bundle Deal</a>
                       <div style={{ marginTop: '15px', textAlign: 'center' }}>
-                          <div style={{ color: '#718096', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px' }}>Guaranteed Safe Checkout</div>
-                          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '16px', marginTop: '12px' }}>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/mastercard.svg" alt="Mastercard" style={{ height: '18px', width: 'auto' }} />
-                              </div>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/visa.svg" alt="Visa" style={{ height: '12px', width: 'auto' }} />
-                              </div>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/gpay.svg" alt="Google Pay" style={{ height: '14px', width: 'auto' }} />
-                              </div>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/applepay.svg" alt="Apple Pay" style={{ height: '14px', width: 'auto' }} />
-                              </div>
+                          <div style={{ color: '#718096', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '8px' }}>Guaranteed Safe Checkout</div>
+                          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px', color: '#CBD5E0' }}>
+                              <FaCcMastercard size={32} />
+                              <FaCcVisa size={32} />
+                              <FaCcAmex size={32} />
+                              <FaApplePay size={38} style={{ transform: 'translateY(-2px)' }} />
+                              <FaGooglePay size={38} style={{ transform: 'translateY(-2px)' }} />
                           </div>
                       </div>
                   </div>
@@ -161,20 +148,13 @@ function App() {
                       </ul>
                       <a href="https://buy.stripe.com/8x25kCdpd3vQdOQely8k802" className="cta-btn" style={{ width: '100%', padding: '15px' }}>Claim Family Pack</a>
                       <div style={{ marginTop: '15px', textAlign: 'center' }}>
-                          <div style={{ color: '#718096', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px' }}>Guaranteed Safe Checkout</div>
-                          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '16px', marginTop: '12px' }}>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/mastercard.svg" alt="Mastercard" style={{ height: '18px', width: 'auto' }} />
-                              </div>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/visa.svg" alt="Visa" style={{ height: '12px', width: 'auto' }} />
-                              </div>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/gpay.svg" alt="Google Pay" style={{ height: '14px', width: 'auto' }} />
-                              </div>
-                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                  <img src="/applepay.svg" alt="Apple Pay" style={{ height: '14px', width: 'auto' }} />
-                              </div>
+                          <div style={{ color: '#718096', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', marginBottom: '8px' }}>Guaranteed Safe Checkout</div>
+                          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '8px', color: '#CBD5E0' }}>
+                              <FaCcMastercard size={32} />
+                              <FaCcVisa size={32} />
+                              <FaCcAmex size={32} />
+                              <FaApplePay size={38} style={{ transform: 'translateY(-2px)' }} />
+                              <FaGooglePay size={38} style={{ transform: 'translateY(-2px)' }} />
                           </div>
                       </div>
                   </div>
