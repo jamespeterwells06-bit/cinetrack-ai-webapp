@@ -107,10 +107,18 @@ function App() {
                       <div style={{ marginTop: '15px', textAlign: 'center' }}>
                           <div style={{ color: '#718096', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px' }}>Guaranteed Safe Checkout</div>
                           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '16px', marginTop: '12px' }}>
-                              <img src="https://cdn.simpleicons.org/visa/a1a1aa" style={{ height: '24px', width: 'auto' }} />
-                              <img src="https://cdn.simpleicons.org/mastercard/a1a1aa" style={{ height: '30px', width: 'auto' }} />
-                              <img src="https://cdn.simpleicons.org/americanexpress/a1a1aa" style={{ height: '24px', width: 'auto' }} />
-                              <img src="https://cdn.simpleicons.org/applepay/a1a1aa" style={{ height: '32px', width: 'auto' }} />
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/mastercard.svg" alt="Mastercard" style={{ height: '18px', width: 'auto' }} />
+                              </div>
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/visa.svg" alt="Visa" style={{ height: '12px', width: 'auto' }} />
+                              </div>
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/gpay.svg" alt="Google Pay" style={{ height: '14px', width: 'auto' }} />
+                              </div>
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/applepay.svg" alt="Apple Pay" style={{ height: '14px', width: 'auto' }} />
+                              </div>
                           </div>
                       </div>
                   </div>
@@ -127,10 +135,18 @@ function App() {
                       <div style={{ marginTop: '15px', textAlign: 'center' }}>
                           <div style={{ color: '#718096', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px' }}>Guaranteed Safe Checkout</div>
                           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '16px', marginTop: '12px' }}>
-                              <img src="https://cdn.simpleicons.org/visa/a1a1aa" style={{ height: '24px', width: 'auto' }} />
-                              <img src="https://cdn.simpleicons.org/mastercard/a1a1aa" style={{ height: '30px', width: 'auto' }} />
-                              <img src="https://cdn.simpleicons.org/americanexpress/a1a1aa" style={{ height: '24px', width: 'auto' }} />
-                              <img src="https://cdn.simpleicons.org/applepay/a1a1aa" style={{ height: '32px', width: 'auto' }} />
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/mastercard.svg" alt="Mastercard" style={{ height: '18px', width: 'auto' }} />
+                              </div>
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/visa.svg" alt="Visa" style={{ height: '12px', width: 'auto' }} />
+                              </div>
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/gpay.svg" alt="Google Pay" style={{ height: '14px', width: 'auto' }} />
+                              </div>
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/applepay.svg" alt="Apple Pay" style={{ height: '14px', width: 'auto' }} />
+                              </div>
                           </div>
                       </div>
                   </div>
@@ -147,10 +163,18 @@ function App() {
                       <div style={{ marginTop: '15px', textAlign: 'center' }}>
                           <div style={{ color: '#718096', fontSize: '10px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px' }}>Guaranteed Safe Checkout</div>
                           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '16px', marginTop: '12px' }}>
-                              <img src="https://cdn.simpleicons.org/visa/a1a1aa" style={{ height: '24px', width: 'auto' }} />
-                              <img src="https://cdn.simpleicons.org/mastercard/a1a1aa" style={{ height: '30px', width: 'auto' }} />
-                              <img src="https://cdn.simpleicons.org/americanexpress/a1a1aa" style={{ height: '24px', width: 'auto' }} />
-                              <img src="https://cdn.simpleicons.org/applepay/a1a1aa" style={{ height: '32px', width: 'auto' }} />
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/mastercard.svg" alt="Mastercard" style={{ height: '18px', width: 'auto' }} />
+                              </div>
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/visa.svg" alt="Visa" style={{ height: '12px', width: 'auto' }} />
+                              </div>
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/gpay.svg" alt="Google Pay" style={{ height: '14px', width: 'auto' }} />
+                              </div>
+                              <div style={{ background: '#fff', borderRadius: '4px', padding: '4px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                  <img src="/applepay.svg" alt="Apple Pay" style={{ height: '14px', width: 'auto' }} />
+                              </div>
                           </div>
                       </div>
                   </div>

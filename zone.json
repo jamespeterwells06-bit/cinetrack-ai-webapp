@@ -1,0 +1,25 @@
+{
+    "Location": "https://route53.amazonaws.com/2013-04-01/hostedzone/Z05911441RX4ATXVK9MTV",
+    "HostedZone": {
+        "Id": "/hostedzone/Z05911441RX4ATXVK9MTV",
+        "Name": "shopcinetrackai.com.",
+        "CallerReference": "1783555988",
+        "Config": {
+            "PrivateZone": false
+        },
+        "ResourceRecordSetCount": 2
+    },
+    "ChangeInfo": {
+        "Id": "/change/C08137412NSY74JN9QSYV",
+        "Status": "PENDING",
+        "SubmittedAt": "2026-07-09T00:13:09.342000+00:00"
+    },
+    "DelegationSet": {
+        "NameServers": [
+            "ns-1746.awsdns-26.co.uk",
+            "ns-819.awsdns-38.net",
+            "ns-1475.awsdns-56.org",
+            "ns-7.awsdns-00.com"
+        ]
+    }
+}
