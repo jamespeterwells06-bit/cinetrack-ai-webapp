@@ -162,6 +162,9 @@ function App() {
               <div style={{ marginTop: '15px' }}>
                   <a href="mailto:support@shopcinetrackai.com" style={{ color: '#5a67d8', textDecoration: 'none', fontWeight: 600 }}>support@shopcinetrackai.com</a>
               </div>
+              <div style={{ marginTop: '20px', fontSize: '12px', opacity: 0.5 }}>
+                  Version: 2026.07.08-v1
+              </div>
           </div>
       </div>
     </>
