@@ -1,16 +1,6 @@
-import { useEffect, useState } from 'react';
 import { FaCcVisa, FaCcMastercard, FaCcAmex, FaApplePay, FaGooglePay } from 'react-icons/fa';
 
 function App() {
-  const [apiMessage, setApiMessage] = useState<string>('');
-
-  useEffect(() => {
-    // Optionally fetch from the Azure function API
-    fetch('/api/hello')
-      .then((res) => res.text())
-      .then((text) => setApiMessage(text))
-      .catch((err) => console.error('Error fetching API:', err));
-  }, []);
 
   return (
     <>
@@ -35,11 +25,7 @@ function App() {
                   <div className="trust">
                       <span className="stars">★★★★★</span> Trusted by 12,400+ Creators
                   </div>
-                  {apiMessage && (
-                    <div style={{ marginTop: '20px', padding: '10px', background: '#1f1f1f', borderRadius: '8px', fontSize: '12px', color: '#5a67d8' }}>
-                      API Status: {apiMessage}
-                    </div>
-                  )}
+
               </div>
               <div className="hero-image">
                   <img src="/mount.gif" alt="Auto Tracking Mount" />
